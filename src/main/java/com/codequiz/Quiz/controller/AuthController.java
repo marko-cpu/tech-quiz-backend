@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin(origins = "https://tech-quiz-frontend.vercel.app")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
